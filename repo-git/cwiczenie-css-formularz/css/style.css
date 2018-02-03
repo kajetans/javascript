@@ -1,0 +1,34 @@
+body {
+  background-color: #213b50;
+  color: white
+}
+
+form {
+  padding: 20px;
+  width: 600px;
+}
+
+form label {
+  display:block;
+  margin-bottom: 5px;
+}
+
+form input, form select, form input {
+  margin-bottom: 10px;
+  border
+}
+
+form input:focus, form textarea:focus, form select:focus {
+background-color: #2b4a64;
+border: #ffffff 1px solid;
+outline:none;
+}
+
+input[type="option"] {
+  background-color: #2b4a64;
+  border: #ffffff;
+}
+
+form input[type="submit"]:hover {
+  background-color: #46e881;
+ }

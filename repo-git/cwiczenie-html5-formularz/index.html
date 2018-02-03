@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <p>html5</p>
+
+    <label for="imie">Imię</label>
+    <input type="text" id="imie" name="imie">
+
+    <label for="nazwisko">Nazwisko</label>
+    <input type="text" id="nazwisko" name="nazwisko">
+
+    <label for="e-mail">E-Mail</label>
+    <input type="text" id="e-mail" name="e-mail">
+
+    <label for="telefon">Telefon</label>
+    <input type="text" id="telefon" name="telefon">
+
+    <label for="wybor-miasta">Wybór Miasta</label>
+    <select name="Wybór Miasta" id="wybor-miasta">
+      <option value="krakow">Kraków</option>
+        <option value="warszawa"> Warszawa</option>
+          <option value="gdansk">Gdańsk</option>
+    </select>
+
+    <label for="plec">Płeć</label>
+    <form>
+      <input type="radio" name="gender" value="mezczyzna" checked> Mężczyzna
+      <input type="radio" name="gender" value="kobieta"> Kobieta
+      <input type="radio" name="gender" value="inne"> Inne
+    </form>
+
+    <label for="zgoda">Zgoda na przetwarzanie danych osobowych</label>
+    <input type="checkbox" id="zgoda" name="zgoda">
+
+<br>
+<br>
+
+  <label for="wiadomosc">Napisz do nas</label>
+    <form action="https://formspree.io/66szukaj@gmail.com"
+      method="POST">
+    <input type="text" id="wiadomosc" name="wiadomosc">
+    <input type="submit" value="Wyślij">
+  </form>
+
+</body>
+
+</html>

@@ -8,3 +8,4 @@ function zmienna lokalna() {
 }
 
 zmiennaLokalna();
+console.log(zmiennaAdam);

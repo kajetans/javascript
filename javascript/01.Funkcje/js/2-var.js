@@ -1,0 +1,1 @@
+// funkcja bez parametrów

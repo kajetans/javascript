@@ -1,4 +1,4 @@
-var  imiona = ["Paweł", "Krzysztof", "Kasia", "Nikola", "Kamil"];
+var imiona = ["Paweł", "Krzysztof", "Kasia", "Nikola", "Kamil"];
 
 //console.log( imiona[2] ); //Kasia - bo zaczyna liczyć od ZERA!
 console.log(imiona);

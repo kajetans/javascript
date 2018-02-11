@@ -7,29 +7,29 @@
 
 var tablica = ["Audi", "Opel", "Honda", "Mazda", "Nissan"];
 
-for (var i = 0; i < tablica.length; i++ ) {
-  console.log( "Tablica! Index = " + i + ", wartość = " + tablica [i] );
+for (var i = 0; i < tablica.length; i++) {
+  console.log("Tablica! Index = " + i + ", wartość = " + tablica[i]);
 }
 
-tablica.forEach( function( elementTablicy, indexTablicy ) {
-  console.log("Index: " + indexTablicy + "wartość: " + elementTablicy );
+tablica.forEach(function(elementTablicy, indexTablicy) {
+  console.log("Index: " + indexTablicy + "wartość: " + elementTablicy);
 
-} );
+});
 
-for( var i = 0; i < tablica.length; i++) {
-    if( i == 2 ) {
-      break;
-    }
-    console.log( i, tablica[i]);
+for (var i = 0; i < tablica.length; i++) {
+  if (i == 2) {
+    break;
+  }
+  console.log(i, tablica[i]);
 }
- var iter = 0;
- while (iter <20 ); {
- console.log(iter);
- ++iter;
+var iter = 0;
+while (iter < 20); {
+  console.log(iter);
+  ++iter;
 }
 
 var iter = 20;
 do {
   console.log(iter);
   ++iter;
-} while(iter < 10);
+} while (iter < 10);
